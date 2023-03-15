@@ -6,15 +6,6 @@
             "id": "f7c911ad-aa46-4cb4-b9ee-212a7c66a130",
             "actions": [
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "c9f7e413-0ed7-491b-aab3-4f78359a11b8",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Movement",
                     "type": "Value",
                     "id": "381961d5-5a4b-4194-9bb3-95b44fbebeb4",
@@ -22,31 +13,18 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Ineteract",
+                    "type": "Button",
+                    "id": "009542e9-5240-4017-b49a-12812e92bb2c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "0ed92ed3-9449-4908-adb2-fea110091254",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "keyboard",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ab2f22e0-6c65-4287-9b38-9b9db8dcd638",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "gamepad",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "WASD",
                     "id": "9108947d-09e0-4e4b-8669-36e926926ae3",
@@ -165,6 +143,39 @@
                     "processors": "StickDeadzone,NormalizeVector2",
                     "groups": "gamepad",
                     "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d68fa65-da99-4e4d-9aa7-26fd76165993",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboard",
+                    "action": "Ineteract",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0860c04e-e133-47da-9228-99eaeb98b9f0",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboard",
+                    "action": "Ineteract",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ceb5f25-39e2-43e9-af66-6c8201e48dce",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "gamepad",
+                    "action": "Ineteract",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

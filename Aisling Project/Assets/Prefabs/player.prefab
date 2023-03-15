@@ -204,7 +204,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4619915522453905687}
-  - component: {fileID: 4619915522453905686}
   - component: {fileID: 4619915522453905684}
   - component: {fileID: 4619915522453905691}
   - component: {fileID: 4619915522453905690}
@@ -232,18 +231,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4619915522453905686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4619915522453905680}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5371350ee9c555845b184025ad812b9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4619915522453905684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,28 +257,12 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4619915522453905686}
-        m_TargetAssemblyTypeName: TestingInputSystem, Assembly-CSharp
-        m_MethodName: Jump_performed
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: c9f7e413-0ed7-491b-aab3-4f78359a11b8
-    m_ActionName: Player/Jump[/Keyboard/space,/XInputControllerWindows/buttonSouth]
-  - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 381961d5-5a4b-4194-9bb3-95b44fbebeb4
     m_ActionName: Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4619915522453905686}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TestingInputSystem, Assembly-CSharp
         m_MethodName: Submit_performed
         m_Mode: 0
@@ -305,6 +276,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f1cd7a1f-0db9-4502-8b8a-af19b91649dd
     m_ActionName: UI/Submit[/XInputControllerWindows/buttonSouth,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 009542e9-5240-4017-b49a-12812e92bb2c
+    m_ActionName: Player/Ineteract[/Keyboard/z,/Keyboard/enter,/XInputControllerWindows/buttonSouth]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -341,4 +316,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 6
-  rotationSpeed: 200
+  gravityMultiplier: 1
+  playerActiveDistance: 1
+  interactiveObjectsLayer:
+    serializedVersion: 2
+    m_Bits: 64
