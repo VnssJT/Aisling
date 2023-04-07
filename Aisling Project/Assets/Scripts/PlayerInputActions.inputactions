@@ -15,9 +15,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Ineteract",
+                    "name": "Interact",
                     "type": "Button",
                     "id": "009542e9-5240-4017-b49a-12812e92bb2c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "e0c6d1f1-caff-4694-9d1d-33f14ba881d8",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -153,7 +162,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "keyboard",
-                    "action": "Ineteract",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -164,7 +173,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "keyboard",
-                    "action": "Ineteract",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -175,7 +184,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "gamepad",
-                    "action": "Ineteract",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -186,7 +195,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Ineteract",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b89bcd1d-5abc-4244-a2b2-bd8c1c0a8e3a",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "keyboard",
+                    "action": "Run",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
