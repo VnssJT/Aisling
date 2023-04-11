@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2198498de67b8409938d9ed3a7573c, type: 3}
+  m_Name: Violet
+  m_EditorClassIdentifier: 
+  MemoryID: 0
+  fragments:
+  - {fileID: 11400000, guid: 7f903c19fa93c7c40a4fd7b1067f891e, type: 2}
+  - {fileID: 11400000, guid: 7e40f4c61339baf459cc91f9cbc662a5, type: 2}
+  - {fileID: 11400000, guid: a6289af46ce3e3d48be625e97064e60a, type: 2}
+  - {fileID: 11400000, guid: c644b4d31e536a5439dd2f01c3bb8eea, type: 2}
+  fragmentsFound: 01000000
+  nFragments: 4
