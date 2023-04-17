@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 1847317169943852798}
   - component: {fileID: 2836047772205780634}
   - component: {fileID: 3609872223700835154}
-  - component: {fileID: 2327818621511000574}
+  - component: {fileID: 7984361791967120136}
   m_Layer: 0
   m_Name: sprite
   m_TagString: Untagged
@@ -203,7 +203,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2327818621511000574
+--- !u!114 &7984361791967120136
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2465176079224319280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4351f056ce8261e4c8a98c2abae7b8fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 094ea5d17b9c5854fbe7716a43f0b1b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4619915522191833177
@@ -404,6 +404,18 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: e0c6d1f1-caff-4694-9d1d-33f14ba881d8
     m_ActionName: Player/Run[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 88773a52-b12b-4391-8757-a4fbbbc00639
+    m_ActionName: Player/Pause[/Keyboard/x,/Keyboard/escape,/Keyboard/p,/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c1c7f208-73c3-4035-b562-fcec2e9c22b7
+    m_ActionName: UI/Navigation[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8607fa5d-1954-4ebc-b428-6ff7b347207b
+    m_ActionName: UI/Close[/Keyboard/x,/Keyboard/i,/Keyboard/p,/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -441,6 +453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 6
   runSpeed: 13
+  animationRunSpeed: 6
   gravityMultiplier: 1
   playerActiveDistance: 1
   interactiveObjectsLayer:

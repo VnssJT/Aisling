@@ -15,7 +15,9 @@ public class Billboard : MonoBehaviour
     void Update()
     {
         cameraDir = Camera.main.transform.position - transform.position;
-        cameraDir.y = Camera.main.transform.forward.y; 
+        cameraDir.y = Camera.main.transform.forward.y; // SI
+        //cameraDir.y = 0;
+        //cameraDir.z = 0;
 
         transform.rotation = Quaternion.LookRotation(cameraDir);
     }

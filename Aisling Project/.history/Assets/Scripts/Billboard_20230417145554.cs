@@ -14,8 +14,8 @@ public class Billboard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        cameraDir = Camera.main.transform.position - transform.position;
-        cameraDir.y = Camera.main.transform.forward.y; 
+        cameraDir = Camera.main.transform.forwardposition.y;
+        cameraDir.y = Camera.main.transform.;
 
         transform.rotation = Quaternion.LookRotation(cameraDir);
     }
