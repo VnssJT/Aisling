@@ -151,7 +151,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -381,22 +381,6 @@ MonoBehaviour:
     m_ActionId: 381961d5-5a4b-4194-9bb3-95b44fbebeb4
     m_ActionName: Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick]
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TestingInputSystem, Assembly-CSharp
-        m_MethodName: Submit_performed
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: f1cd7a1f-0db9-4502-8b8a-af19b91649dd
-    m_ActionName: UI/Submit[/XInputControllerWindows/buttonSouth,/Keyboard/space]
-  - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 009542e9-5240-4017-b49a-12812e92bb2c
     m_ActionName: Player/Ineteract[/Keyboard/z,/Keyboard/enter,/XInputControllerWindows/buttonSouth]
@@ -410,12 +394,44 @@ MonoBehaviour:
     m_ActionName: Player/Pause[/Keyboard/x,/Keyboard/escape,/Keyboard/p,/Keyboard/i]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: c1c7f208-73c3-4035-b562-fcec2e9c22b7
-    m_ActionName: UI/Navigation[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+    m_ActionId: ca992a75-fb1b-4731-86c7-248b375ed013
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 8607fa5d-1954-4ebc-b428-6ff7b347207b
-    m_ActionName: UI/Close[/Keyboard/x,/Keyboard/i,/Keyboard/p,/Keyboard/escape]
+    m_ActionId: db453085-fb8c-46de-8153-aa44feee9cd2
+    m_ActionName: UI/Submit[/Keyboard/z,/Keyboard/space,/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 737d782a-cff8-4185-afb6-1f20f4c28505
+    m_ActionName: UI/Cancel[/Keyboard/x,/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d8d03514-7ed2-4407-8cad-4e5cbfbe4a99
+    m_ActionName: UI/Point[/Mouse/position,/Pen/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 94f6f316-3349-47a2-b554-d963423b1b15
+    m_ActionName: UI/Click[/Mouse/leftButton,/Pen/tip]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b4505fdc-c7eb-4ac8-ab64-8efbc65d2df7
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 96e5dc0a-2d72-453f-bb2b-1daff3afdd43
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 15764d4d-96e8-46ed-92cb-496e4b044922
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a6532f08-3e37-414f-981b-990ccd7478df
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f8c8d872-4a41-4501-9f1d-6ec4b879eeb2
+    m_ActionName: UI/TrackedDeviceOrientation
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

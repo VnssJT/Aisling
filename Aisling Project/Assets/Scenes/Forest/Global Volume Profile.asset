@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5e1dc532bcb41949b58bc4f2abfbb7e, type: 3}
   m_Name: LensDistortion
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
-    m_Value: -0.25
+    m_Value: -0.36
   xMultiplier:
     m_OverrideState: 1
     m_Value: 1
@@ -53,7 +53,7 @@ MonoBehaviour:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.15897435
+          value: 0
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -62,9 +62,9 @@ MonoBehaviour:
           outWeight: 0
         - serializedVersion: 3
           time: 1
-          value: 0.83076924
-          inSlope: 0.24127787
-          outSlope: 0.24127787
+          value: 0.99598396
+          inSlope: 0.8855525
+          outSlope: 0.8855525
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -75,7 +75,7 @@ MonoBehaviour:
   red:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 2
+      <length>k__BackingField: 3
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -84,18 +84,27 @@ MonoBehaviour:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.061538458
-          inSlope: 0.15018314
-          outSlope: 0.15018314
+          value: 0.05220884
+          inSlope: 1
+          outSlope: 1
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 1
-          value: 0.70769227
-          inSlope: 1.1066136
-          outSlope: 1.1066136
+          time: 0.48554912
+          value: 0.562249
+          inSlope: 0.9554151
+          outSlope: 0.9554151
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.9319899
+          value: 1
+          inSlope: 1
+          outSlope: 1
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -115,16 +124,16 @@ MonoBehaviour:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.11794871
-          inSlope: 0.46256405
-          outSlope: 0.46256405
+          value: 0
+          inSlope: 1
+          outSlope: 1
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.5609756
-          value: 0.34871793
+          time: 0.45279384
+          value: 0.5903615
           inSlope: 1.2902187
           outSlope: 1.2902187
           tangentMode: 0
@@ -132,10 +141,10 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 1
+          time: 0.94990367
           value: 1
-          inSlope: 2.0184615
-          outSlope: 2.0184615
+          inSlope: 1
+          outSlope: 1
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -155,7 +164,7 @@ MonoBehaviour:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.17435896
+          value: 0.053191483
           inSlope: 0.79188824
           outSlope: 0.79188824
           tangentMode: 0
@@ -163,10 +172,10 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.8097561
-          value: 1
-          inSlope: 1.3712373
-          outSlope: 1.3712373
+          time: 1
+          value: 0.79518074
+          inSlope: 1
+          outSlope: 1
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -247,10 +256,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.238
+    m_Value: 0.025
   smoothness:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.91
   rounded:
     m_OverrideState: 1
     m_Value: 0
@@ -289,10 +298,10 @@ MonoBehaviour:
   active: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.95
+    m_Value: 0.5
   intensity:
     m_OverrideState: 1
-    m_Value: 0.98
+    m_Value: 1.08
   scatter:
     m_OverrideState: 1
     m_Value: 0.746
@@ -368,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
   m_Name: Tonemapping
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   mode:
     m_OverrideState: 1
     m_Value: 1
