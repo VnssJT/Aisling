@@ -16,7 +16,7 @@ public class InventoryUI : MonoBehaviour
 
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
 
-        UpdateUI();
+        UpdateUI
     }
 
     private void OnDisable() {

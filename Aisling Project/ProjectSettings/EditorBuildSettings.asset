@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 7b314d19e26480d43b6ae231ff7e60f6
+  - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -14,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Apartments.unity
     guid: a0a8ed94c1b71d047a8bb6df8a06dc4e
+  - enabled: 1
+    path: Assets/Scenes/Maze.unity
+    guid: a3baa6363727c1445b0a6d0ca1878811
+  - enabled: 1
+    path: Assets/Scenes/Limbo.unity
+    guid: dbd7ec83c64b5b74686b62113bc87f4d
   m_configObjects: {}

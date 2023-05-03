@@ -7,7 +7,7 @@ public class DoorController : MonoBehaviour
 {
     [SerializeField] private string room;
     [SerializeField] private int spawnerID;
-    public bool isBlocked = true;
+    public bool isBlocked = false;
 
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject.tag == "Player"){
