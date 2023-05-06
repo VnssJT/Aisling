@@ -23,3 +23,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dbc7c1b8c7d7f6d4f85c686f144fce62, type: 2}
   fragmentsFound: 00000000
   nFragments: 4
+  memoryType: 1

@@ -20,3 +20,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e91ff636d06f2234b855f8ae3a817f32, type: 2}
   fragmentsFound: 00
   nFragments: 1
+  memoryType: 1
