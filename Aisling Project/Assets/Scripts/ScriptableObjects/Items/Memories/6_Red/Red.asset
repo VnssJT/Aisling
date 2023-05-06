@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b2198498de67b8409938d9ed3a7573c, type: 3}
   m_Name: Red
   m_EditorClassIdentifier: 
+  name: redMemory
+  icon: {fileID: 21300000, guid: 2ec925cf1b1ea5e44a073e34a5ad0daf, type: 3}
+  description: 
   MemoryID: 6
   fragments:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 41f5817f497877f4b9789badf1ffa4d2, type: 2}
   fragmentsFound: 00
   nFragments: 1

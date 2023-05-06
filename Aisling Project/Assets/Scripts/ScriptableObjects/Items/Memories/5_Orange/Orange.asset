@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b2198498de67b8409938d9ed3a7573c, type: 3}
   m_Name: Orange
   m_EditorClassIdentifier: 
+  name: orangeMemory
+  icon: {fileID: 21300000, guid: 2a8dbb1360d7fe942a1f901f1a05cdb1, type: 3}
+  description: 
   MemoryID: 5
   fragments:
   - {fileID: 11400000, guid: 45fc8dcfd8a02e54ab278ae3c1f7e97f, type: 2}

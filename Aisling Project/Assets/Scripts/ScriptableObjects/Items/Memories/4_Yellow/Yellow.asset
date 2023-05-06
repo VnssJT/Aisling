@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b2198498de67b8409938d9ed3a7573c, type: 3}
   m_Name: Yellow
   m_EditorClassIdentifier: 
+  name: yellowMemory
+  icon: {fileID: 21300000, guid: d3037671e8bb1e24698ad28d5c490f5c, type: 3}
+  description: 
   MemoryID: 4
   fragments:
   - {fileID: 11400000, guid: 2730ee545af84e64691b749b7c0297e3, type: 2}
