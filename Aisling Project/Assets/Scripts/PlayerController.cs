@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     public delegate void OnInput();
-    public OnInput onInventoryPressed;
+    public static OnInput onInventoryPressed;
     private PlayerInput playerInput;
     private PlayerInputActions playerInputActions;
     private string currentActionStr = "PlayerInputActions (UnityEngine.InputSystem.InputActionAsset):";

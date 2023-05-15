@@ -12,17 +12,17 @@ public class InventoryUI : MonoBehaviour
     {
         inventory = Inventory.instance;
         inventory.onItemChangedCallback += UpdateUI;
-        PlayerController.onInventoryPressed += DisplayUI;
+        PlayerController.instance.onInventoryPressed += DisplayUI;
 
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
 
-        Debug.Log("INVENTORY UI: Starting...");
+        Debug.Log("INVENTORY UI: ");
         UpdateUI();
     }
 
     private void OnDisable() {
         inventory.onItemChangedCallback -= UpdateUI;
-        PlayerController.onInventoryPressed -= DisplayUI;
+        PlayerController.instance.onInventoryPressed -= DisplayUI;
     }
 
     // Update is called once per frame
