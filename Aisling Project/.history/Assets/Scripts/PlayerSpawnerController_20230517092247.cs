@@ -15,12 +15,8 @@ public class PlayerSpawnerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        MazeAlgo.OnGenerated += spawnPlayer;
         spawnPlayer();
-    }
-    private void OnEnable()
-    {
-        MazeAlgo.OnGenerated += spawnPlayer;        
     }
 
     private void OnDisable() {

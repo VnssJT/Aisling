@@ -10,7 +10,6 @@ public abstract class MazeAlgo : MonoBehaviour
     //public TileBase[] tiles;
     public GameObject[] tiles3d;
     public GameObject player;
-    public GameObject REDfrag;
     public GameObject mazeParent;
     int scaleFactor = 2;
     public enum TileTypes 
@@ -31,11 +30,11 @@ public abstract class MazeAlgo : MonoBehaviour
 
     protected void DisplayMaze()
     {
-        int height = (int)maze.GetLongLength(0);
-        int width = (int)maze.GetLongLength(1);
+        long height = maze.GetLongLength(0);
+        long width = maze.GetLongLength(1);
 
         // Spawn player at the first tile
-        Instantiate(player, new Vector3Int(0, 1, 0), Quaternion.Euler(new Vector3( 0, 180, 0)));
+        Instantiate(player, new Vector3Int(0, 1, 0), Quaternion.identity);
 
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
@@ -43,11 +42,7 @@ public abstract class MazeAlgo : MonoBehaviour
                 Instantiate(tiles3d[maze[y, x]], new Vector3Int(x, 0, -y) * scaleFactor, Quaternion.identity, mazeParent.transform);
             }
         }
-
-        // Spawn last fragment
-        Instantiate(REDfrag, new Vector3(width - 1, 0.5f, -(height - 1)) * scaleFactor, Quaternion.identity);
-
-        OnGenerated?.Invoke();
+        
     }
 
     public int[,] GetMaze() { return maze;}

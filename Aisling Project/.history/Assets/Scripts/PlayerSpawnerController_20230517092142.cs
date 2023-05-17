@@ -15,20 +15,8 @@ public class PlayerSpawnerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
 
-        spawnPlayer();
-    }
-    private void OnEnable()
-    {
-        MazeAlgo.OnGenerated += spawnPlayer;        
-    }
-
-    private void OnDisable() {
-        MazeAlgo.OnGenerated -= spawnPlayer;
-    }
-
-
-    void spawnPlayer(){
         if (playerSpawners == null){
             playerSpawners = GameObject.FindGameObjectsWithTag("PlayerSpawner");
         }
@@ -49,6 +37,7 @@ public class PlayerSpawnerController : MonoBehaviour
                 break;
             }
         }
+
     }
 
 }

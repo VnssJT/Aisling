@@ -16,15 +16,9 @@ public class PlayerSpawnerController : MonoBehaviour
     void Start()
     {
 
-        spawnPlayer();
-    }
-    private void OnEnable()
-    {
-        MazeAlgo.OnGenerated += spawnPlayer;        
-    }
 
-    private void OnDisable() {
-        MazeAlgo.OnGenerated -= spawnPlayer;
+
+
     }
 
 

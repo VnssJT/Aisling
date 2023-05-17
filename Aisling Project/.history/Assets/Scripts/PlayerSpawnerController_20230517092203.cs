@@ -16,20 +16,14 @@ public class PlayerSpawnerController : MonoBehaviour
     void Start()
     {
 
-        spawnPlayer();
-    }
-    private void OnEnable()
-    {
-        MazeAlgo.OnGenerated += spawnPlayer;        
-    }
 
-    private void OnDisable() {
-        MazeAlgo.OnGenerated -= spawnPlayer;
+
+
     }
 
 
     void spawnPlayer(){
-        if (playerSpawners == null){
+                if (playerSpawners == null){
             playerSpawners = GameObject.FindGameObjectsWithTag("PlayerSpawner");
         }
         /*Debug.Log("[PLAYERSPAWNERCONTROLLER] Current scene: " + EditorSceneManager.GetActiveScene().name);
