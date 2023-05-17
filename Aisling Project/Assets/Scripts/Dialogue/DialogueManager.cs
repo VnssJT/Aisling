@@ -24,6 +24,7 @@ public class DialogueManager : MonoBehaviour
 
     // EVENTS
     public delegate void OnDialogue();
+    public static OnDialogue onDialogueStarted;
     public static OnDialogue onDialogueEnded;
 
 
@@ -56,6 +57,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue){
         //Debug.Log("Sarting conversation with " + dialogue.name);
+        onDialogueStarted?.Invoke();
 
         //nameText.text = dialogue.name;
         dialogueInCourse = true;

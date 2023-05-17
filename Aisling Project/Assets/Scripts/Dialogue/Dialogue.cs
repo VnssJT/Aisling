@@ -13,6 +13,12 @@ public class DialogueSentence
     
     [TextArea(3, 10)]
     public string sentence;
+
+    public DialogueSentence(string name, string sentence)
+    {
+        this.name = name;
+        this.sentence = sentence;
+    }
 }
 
 
@@ -20,6 +26,11 @@ public class DialogueSentence
 public class Dialogue
 {
     public DialogueSentence[] sentences;
+
+    public Dialogue(DialogueSentence[] sentences)
+    {
+        this.sentences = sentences;
+    }
 }   
 
  

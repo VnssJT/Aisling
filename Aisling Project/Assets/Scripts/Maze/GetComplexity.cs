@@ -9,13 +9,14 @@ public class GetComplexity : MonoBehaviour
 
     public int mazeWidth = 10;
     public int mazeLenght= 10;
-    bool measureMode = true;
+    bool measureMode = false;
     int[,] maze;
     int t1;
     int t2;
     [SerializeField] GameObject dialogueTriggerPrefab;
-    int nDialogueTriggers = 5;
+    int nDialogueTriggers = 8;
     [SerializeField] int scaleFactor = 2;
+    [SerializeField] DialogueManager dialogueManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -126,10 +127,11 @@ public class GetComplexity : MonoBehaviour
         int solutionLength = GetSolutionLenght(maze);
         int tileThreshold = (solutionLength - 10) / nDialogueTriggers;
 
-        for (int i = tileThreshold; i < solutionTiles.Count; i += tileThreshold)
+        for (int i = 1; i < nDialogueTriggers + 1; i++)
         //for(int i = 0; i < solutionTiles.Count; i++)
         {
-            Instantiate(dialogueTriggerPrefab, new Vector3(solutionTiles[i].y, 0, -solutionTiles[i].x) * scaleFactor, Quaternion.identity);
+            DialogueTriggerMaze dialogueTrigger = Instantiate(dialogueTriggerPrefab, new Vector3(solutionTiles[i * tileThreshold].y, 0, -solutionTiles[i * tileThreshold].x) * scaleFactor, Quaternion.identity).GetComponent<DialogueTriggerMaze>();
+            //dialogueTrigger.dialogueManager = dialogueManager;
         }
     }
 

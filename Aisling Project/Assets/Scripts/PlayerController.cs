@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
         playerInputActions.UI.Cancel.performed += Cancel_Performed;
 
         DialogueManager.onDialogueEnded += DialogueManager_OndialogueEnded;
+        DialogueManager.onDialogueStarted += DialogueManager_OnDialogueStarted;
     }
 
     private void Update(){
@@ -119,10 +120,7 @@ public class PlayerController : MonoBehaviour
 
                     // If it's a dialogue trigger
                     if(interactiveObject is DialogueTriggerObject){
-                        // Change input map
-                        playerInputActions.UI.Enable();
-                        playerInputActions.Player.Disable();
-                        playerInput.SwitchCurrentActionMap("UI");
+                        DialogueManager_OnDialogueStarted();
                     }
                 }
             }
@@ -169,8 +167,16 @@ public class PlayerController : MonoBehaviour
         onInventoryPressed?.Invoke();  
     }
 
+    void DialogueManager_OnDialogueStarted()
+    {
+        // Change input map
+        playerInputActions.UI.Enable();
+        playerInputActions.Player.Disable();
+        playerInput.SwitchCurrentActionMap("UI");
+    }
+
     void DialogueManager_OndialogueEnded(){
-        // return input ma to player
+        // return input map to player
         playerInputActions.UI.Disable();
         playerInputActions.Player.Enable();
         playerInput.SwitchCurrentActionMap("Player");    
