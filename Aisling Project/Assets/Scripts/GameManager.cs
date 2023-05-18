@@ -12,6 +12,25 @@ public class GameManager : MonoBehaviour
     // When YELLOW found -> create maze
     // When RED found -> grant access to LIMBO
 
+    #region Singleton
+    public static GameManager instance;
+
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("More than one instance of Game Manager found!");
+            Destroy(gameObject);
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+    #endregion
+
+    // EVENTS
+    public delegate void OnGameManager();
+    public static OnGameManager onSecondPuzzleTriggered;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +38,8 @@ public class GameManager : MonoBehaviour
         MemoryManager.OnOrangeFound += MemoryManager_OnOrangeFound;
         MemoryManager.OnYellowFound += MemoryManager_OnYellowFound;
         MemoryManager.OnRedFound += MemoryManager_OnRedFound;
+
+        _CardGameManager.onMemoryMatchWon += CarGameManager_OnWon;
     }
 
     private void OnDisable() {
@@ -26,6 +47,8 @@ public class GameManager : MonoBehaviour
         MemoryManager.OnOrangeFound -= MemoryManager_OnOrangeFound;
         MemoryManager.OnYellowFound -= MemoryManager_OnYellowFound;
         MemoryManager.OnRedFound -= MemoryManager_OnRedFound;
+
+        _CardGameManager.onMemoryMatchWon -= CarGameManager_OnWon;
     }
 
     void MemoryManager_OnGreenFound(){
@@ -43,7 +66,13 @@ public class GameManager : MonoBehaviour
         // Check if BLUE was foun
         if(MemoryManager.instance.memoriesFound[(int) MemoryManager.MemoryIndex.BLUE]){
             Debug.Log("GAME MANAGER: orange found");
+            onSecondPuzzleTriggered?.Invoke();
         }
+    }
+
+    void CarGameManager_OnWon()
+    {
+        Debug.Log("GAME MANAGER: Memory Match Game Won");
     }
 
     void MemoryManager_OnYellowFound(){

@@ -15,7 +15,6 @@ public class Inventory : MonoBehaviour
         } 
         instance = this;
         DontDestroyOnLoad(gameObject);
-        Debug.Log("INVENTORY: Awake");
     }
     #endregion
     

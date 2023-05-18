@@ -3225,6 +3225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1137144650}
   - component: {fileID: 1137144651}
+  - component: {fileID: 1137144652}
   m_Layer: 0
   m_Name: Post-process Volume
   m_TagString: Untagged
@@ -3264,6 +3265,19 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 1528d53f316e38e4d88daac87e65b8ec, type: 2}
+--- !u!114 &1137144652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137144649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639c3a06cf844244a950e69e4ec0487d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Volume: {fileID: 0}
 --- !u!1001 &1169252674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4142,6 +4156,37 @@ RectTransform:
   m_AnchoredPosition: {x: -327.3943, y: -732}
   m_SizeDelta: {x: 1028.8494, y: 197.0677}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1334592640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1334592641}
+  m_Layer: 0
+  m_Name: PostProcesingController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1334592641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334592640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.246483, y: 5.9992504, z: 21.696985}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1343846956
 PrefabInstance:
   m_ObjectHideFlags: 0
