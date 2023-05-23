@@ -41,6 +41,7 @@ public class PlayerSpawnerController : MonoBehaviour
             //look for all the spawners in the scene until finding the one that lastSpawnerID == spawner.SpawnerID
             if(spawner.GetComponent<PlayerSpawner>().SpawnerID == lastSpawnerID){
                 // Instatiate player in that spawner's position
+                Debug.Log("PLATER SPAWNER CONTROLLER: Instantiating player");
                 GameObject.Instantiate(playerPrefab, spawner.transform.position, spawner.transform.rotation);
 
                 // Invoke spawned event

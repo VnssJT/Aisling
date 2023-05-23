@@ -37,7 +37,7 @@ public class LimboManager : MonoBehaviour
 
         if(timeSinceStarted > timetoTriggerDialogue[currentDialogueIndex])
         {
-            Debug.Log("LIMBO: Dialogue triggered");
+            //Debug.Log("LIMBO: Dialogue triggered");
             if (!dialogueStarted[currentDialogueIndex])
             {
                 dialogueManager.StartDialogue(dialogues[currentDialogueIndex].dialogue);
@@ -53,7 +53,7 @@ public class LimboManager : MonoBehaviour
         // It's the last dialogue
         if(currentDialogueIndex == dialogues.Length - 1)
         {
-            Debug.Log("LIMBO MANAGER: Activating decision triggers");
+            //Debug.Log("LIMBO MANAGER: Activating decision triggers");
             DecisionTriggers.SetActive(true);
             Vector3 playerPos = PlayerController.instance.transform.position;
             DecisionTriggers.transform.position = new Vector3(playerPos.x, 0f, playerPos.z + triggersDistanceFromPlayer);

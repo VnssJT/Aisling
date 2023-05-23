@@ -57,7 +57,7 @@ public class MemoryUI : MonoBehaviour
     }
 
     public void displayVideoMemory(MemoryManager.MemoryIndex memoryID){
-        Debug.Log("MEMORY UI: displaying video...");
+        //Debug.Log("MEMORY UI: displaying video...");
         // Choose video file
         string videoName = videoRootName + memoryID;
         //Debug.Log("MEMORYUI " + videoName);
@@ -74,7 +74,7 @@ public class MemoryUI : MonoBehaviour
     }
 
     public void displayImages(MemoryManager.MemoryIndex memoryID){
-        Debug.Log("MEMORY UI: displaying images...");
+        //Debug.Log("MEMORY UI: displaying images...");
         // Set ImagesParent active
         ImagesPanelWithButtons.SetActive(true);
 

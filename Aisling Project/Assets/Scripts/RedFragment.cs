@@ -21,6 +21,7 @@ public class RedFragment : MonoBehaviour
 
     void changeScene()
     {
+        PlayerSpawnerController.lastSpawnerID = 0;
         SceneManager.LoadScene("Limbo");
     }
 
