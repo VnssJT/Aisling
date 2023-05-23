@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &92273553934247507
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[9].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[10].name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0].sentence
+      value: Rito, my darling, can you hear  me? I suppose you can.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1].sentence
+      value: Welcome back once again. You came back pretty soon this time.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2].sentence
+      value: I wasn't expecting you to come back this early...
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3].sentence
+      value: '*sigh* Anyway...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4].sentence
+      value: Did you find what you were looking for?
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5].sentence
+      value: Did you find her? Do you remember her now?
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6].sentence
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7].sentence
+      value: Listen, my dear. It will be time to wake up soon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8].sentence
+      value: It's always like this. What will you choose this time?
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[9].sentence
+      value: Hopefully you choose a different path this time.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[10].sentence
+      value: She will be here soon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819781, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Name
+      value: Limbo1
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819782, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819783, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}

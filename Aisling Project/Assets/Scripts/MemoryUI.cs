@@ -21,6 +21,10 @@ public class MemoryUI : MonoBehaviour
     private int nImages;
     private Vector3 originalImagesParentPos;
 
+    // EVENTS
+    public delegate void OnMemoryUI();
+    public static OnMemoryUI onVideoEnded;
+
     private void Start() {
         // Set video settings
         videoPlayer = videoUI.GetComponentInChildren<VideoPlayer>();
@@ -65,6 +69,7 @@ public class MemoryUI : MonoBehaviour
     }
 
     void VideoEndReached(UnityEngine.Video.VideoPlayer vp){
+        onVideoEnded?.Invoke();
         videoUI.SetActive(false);
     }
 
