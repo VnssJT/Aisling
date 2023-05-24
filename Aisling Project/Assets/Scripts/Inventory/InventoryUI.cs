@@ -16,7 +16,7 @@ public class InventoryUI : MonoBehaviour
 
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
 
-        Debug.Log("INVENTORY UI: Starting...");
+        //Debug.Log("INVENTORY UI: Starting...");
         UpdateUI();
     }
 

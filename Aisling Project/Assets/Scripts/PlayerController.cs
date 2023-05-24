@@ -45,7 +45,20 @@ public class PlayerController : MonoBehaviour
         characterController = GetComponent<CharacterController>();  
 
         playerInputActions = new PlayerInputActions();
+
         playerInputActions.Player.Enable();
+
+        // Player input actions events
+        playerInputActions.Player.Interact.performed += Interact_performed;
+        playerInputActions.Player.Pause.performed += Pause_Performed;
+        playerInputActions.UI.Cancel.performed += Cancel_Performed;
+
+        DialogueManager.onDialogueEnded += DialogueManager_OndialogueEnded;
+        DialogueManager.onDialogueStarted += DialogueManager_OnDialogueStarted;
+    }
+
+    private void OnEnable()
+    {
 
         // Player input actions events
         playerInputActions.Player.Interact.performed += Interact_performed;
@@ -138,6 +151,7 @@ public class PlayerController : MonoBehaviour
         playerInputActions.UI.Cancel.performed -= Cancel_Performed;
 
         DialogueManager.onDialogueEnded -= DialogueManager_OndialogueEnded;
+        DialogueManager.onDialogueStarted -= DialogueManager_OnDialogueStarted;
     }
 
     public void Interact_performed(InputAction.CallbackContext context){
