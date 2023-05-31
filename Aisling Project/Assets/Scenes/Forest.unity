@@ -7320,6 +7320,138 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7782140078020747210, guid: c395d09bf4f48ff46b168163f889079a, type: 3}
   m_PrefabInstance: {fileID: 876348467}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &469519947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1578700126}
+    m_Modifications:
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.50155
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.39973
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -34.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 1544543156}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0].sentence
+      value: There are hidden paths in this head of yours, so you must pay close
+        attention to find them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1].sentence
+      value: Whi know? Maybe you can't come back here after crossing it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2].sentence
+      value: Anyway, you're loooking for you friend, right?
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3].sentence
+      value: I know, you don't remeber her name or her face.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4].sentence
+      value: I'm gonna help you a bit wth that. See those cassettes? You should check
+        them out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5].sentence
+      value: You can try "interacting" with them, whatever that means...
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819781, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Name
+      value: InteractiveObj DIALOGUE (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819783, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c673e6443d61ef409791e2cc1f9b4e8, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+--- !u!4 &469519948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+  m_PrefabInstance: {fileID: 469519947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &489824953
 GameObject:
   m_ObjectHideFlags: 0
@@ -12088,6 +12220,137 @@ MonoBehaviour:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2124390971093092425, guid: 3dba48a425e2ac343af43088576b1db7, type: 3}
   m_PrefabInstance: {fileID: 576699697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &771571926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1578700126}
+    m_Modifications:
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.50155
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.39973
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 1544543156}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0].sentence
+      value: Make sure to finish all of your business before going through a door.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1].sentence
+      value: Whi know? Maybe you can't come back here after crossing it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2].sentence
+      value: Anyway, you're loooking for you friend, right?
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3].sentence
+      value: I know, you don't remeber her name or her face.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4].sentence
+      value: I'm gonna help you a bit wth that. See those cassettes? You should check
+        them out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5].sentence
+      value: You can try "interacting" with them, whatever that means...
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819781, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Name
+      value: InteractiveObj DIALOGUE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819783, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c673e6443d61ef409791e2cc1f9b4e8, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+--- !u!4 &771571927 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+  m_PrefabInstance: {fileID: 771571926}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &775273426
 GameObject:
@@ -27406,7 +27669,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: m_LocalScale.x
@@ -27462,7 +27725,7 @@ PrefabInstance:
       objectReference: {fileID: 1544543156}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[0].name
@@ -27502,11 +27765,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[0].sentence
-      value: You may notice it's only a bunch of papers with random numbers and letters
+      value: Remeber you're inside your own head, so not everyhitng is what it looks
+        like.
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[1].sentence
-      value: but that's actually meaningful because..
+      value: You might seem trapped but the exit might be the same door you came
+        from.
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[2].sentence
@@ -29046,7 +29311,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1174969449}
+  - {fileID: 771571927}
   - {fileID: 1538848307}
+  - {fileID: 469519948}
+  - {fileID: 2043592680}
   m_Father: {fileID: 1601631216}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37522,6 +37790,138 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2043592679
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1578700126}
+    m_Modifications:
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.50155
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.39973
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 57.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -52.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 1544543156}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0].sentence
+      value: My job here is done, Rito. So I'm afraid we will not see each other
+        in a while.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1].sentence
+      value: Good luck finding your friend.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2].sentence
+      value: Anyway, you're loooking for you friend, right?
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3].sentence
+      value: I know, you don't remeber her name or her face.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4].sentence
+      value: I'm gonna help you a bit wth that. See those cassettes? You should check
+        them out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5].sentence
+      value: You can try "interacting" with them, whatever that means...
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819781, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Name
+      value: InteractiveObj DIALOGUE (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819783, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c673e6443d61ef409791e2cc1f9b4e8, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+--- !u!4 &2043592680 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 638638213524819777, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+  m_PrefabInstance: {fileID: 2043592679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2045018657
 GameObject:
   m_ObjectHideFlags: 0
@@ -39891,7 +40291,7 @@ PrefabInstance:
       objectReference: {fileID: 1544543156}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[0].name
@@ -39919,28 +40319,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[0].sentence
-      value: Enjoying the view? I'm just a red cube, chill.
+      value: Oh, you're here again.
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[1].sentence
-      value: So you're looking for your friend, huh?
+      value: When will you learn, my friend?
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[2].sentence
-      value: What? You don't even remember her name? How are you gonna find her then?
+      value: Anyway, you're loooking for you friend, right?
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[3].sentence
-      value: '*sigh* Look, I''m not supposed to tell you this, but those CASSETTES
-        look kind of... interesting.'
+      value: I know, you don't remeber her name or her face.
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[4].sentence
-      value: You can try "interacting" with them pressing Z or E, whatever that means...
+      value: I'm gonna help you a bit wth that. See those cassettes? You should check
+        them out.
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[5].sentence
-      value: You can try "interacting" with them, whatever that means...
+      value: Aftercollecting them, you can press X or I to open your BOOK OF MEMORIES
+        to see them.
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819781, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: m_Name
