@@ -25,6 +25,9 @@ public class LimboManager : MonoBehaviour
         }
         
         DialogueManager.onDialogueEnded += DialogueManager_onDialogueEnded;
+
+        // Add RED memory to inventory
+        MemoryManager.instance.AddFragment(MemoryManager.MemoryIndex.RED, 0);
     }
 
     // Update is called once per frame
