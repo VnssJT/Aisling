@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[0].name
@@ -113,7 +113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[3].sentence
-      value: She will be here soon.
+      value: 'Remeber to check your memories before making a decision. '
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[4].sentence

@@ -13515,7 +13515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6678570117596034149, guid: 7cedd70f65fcbf84084e844d07c6f2a1, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6678570117596034152, guid: 7cedd70f65fcbf84084e844d07c6f2a1, type: 3}
       propertyPath: m_Name
@@ -37855,7 +37855,7 @@ PrefabInstance:
       objectReference: {fileID: 1544543156}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[0].name
@@ -37882,30 +37882,37 @@ PrefabInstance:
       value: RED CUBE
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6].name
+      value: RED CUBE
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[0].sentence
-      value: My job here is done, Rito. So I'm afraid we will not see each other
-        in a while.
+      value: Oh, you remember her name? Good job.
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[1].sentence
-      value: Good luck finding your friend.
+      value: Was it Ashly or something like that?
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[2].sentence
-      value: Anyway, you're loooking for you friend, right?
+      value: Aisling, right?
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[3].sentence
-      value: I know, you don't remeber her name or her face.
+      value: 'Yes, it was Aisling. I remember now. '
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[4].sentence
-      value: I'm gonna help you a bit wth that. See those cassettes? You should check
-        them out.
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: dialogue.sentences.Array.data[5].sentence
-      value: You can try "interacting" with them, whatever that means...
+      value: Anyway, my job here is done, Rito. So I'm afraid we will not see each
+        other in a while.
+      objectReference: {fileID: 0}
+    - target: {fileID: 638638213524819778, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6].sentence
+      value: Good luck finding your friend.
       objectReference: {fileID: 0}
     - target: {fileID: 638638213524819781, guid: ffe185ca78a47a24c99d0614c87fdaff, type: 3}
       propertyPath: m_Name
